@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/8488/8488751.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header2">
+        <h1 class="LogInH1"><b><u>Log In</u></b></h1>
+        <form id="Form"><b>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="lname">Email</label><br>
+            <input type="email" id="lname" name="lname"><br>
+            <label for="lname">Password</label><br>
+            <input type="password" id="lname" name="lname"><br>
+            <label for="lname">Phone Number</label><br>
+            <input type="number" id="lname" name="lname"><br><br>
+            <button type="reset">Reset</button> 
+            <button onclick="yourName">Submit</button><br><br>
+            <a href="index.html"><img src="https://cdn-icons-png.flaticon.com/128/2879/2879564.png" alt="back" height="50px"></a>
+            <a href="aboutCourse.html"><img src="https://cdn-icons-png.flaticon.com/128/2879/2879593.png" alt="forward" height="50px"></a>
+        </b>
+
+        <script>
+            function yourName() {
+                var name = document.getElementById("Form").value;
+                alert("Your information: " + name);
+            }
+        </script>
+            
+            
+          </form>
+
+
+    </div>
+</body>
+</html>

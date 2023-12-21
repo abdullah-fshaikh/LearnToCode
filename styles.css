@@ -1,0 +1,87 @@
+body {
+    background-color: #EBF3EB;
+}
+
+form{
+    color: #618264;
+    font-family: 'Garamond', cursive;
+}
+
+hr{
+    border: 5px solid #86A789;
+    border-radius: 5px;
+}
+
+p{
+    color: #618264;
+    font-family: 'Garamond', cursive;
+}
+
+
+.LogInH1{
+    text-align: center;
+    color: #557C55;
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    
+}
+
+.home-h1_2 {
+    color: #557C55;
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    float: left;
+}
+
+a:link {
+    color: rgb(10, 106, 10);
+  }
+
+a:visited{
+    color: rgb(10, 106, 10);
+}
+
+  
+  /* mouse over link */
+  a:hover {
+    color: #0a9a0a;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(17, 255, 0);
+  }
+
+.coding-img {
+    float: right;
+}
+
+.header{
+    border-radius: 50%;
+    background-color: #D2E3CB;
+    height: 60%;
+}
+
+.header2{
+    text-align: center;
+    border-radius: 50%;
+    background-color: #D2E3CB;
+    height: 90%;
+    
+}
+
+.header-p {
+    color: #557C55;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    float: right;
+}
+
+.body-part1{
+    float: left;
+}
+
+.body-part2{
+    float: right;
+}
+
